@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#mainNav {
+    z-index: 2;
+    position: fixed;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bg-gray-900 {
+    background: #000;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.bg-orange {
+    background: #ff8800;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.text-orange-500 {
+    color: darkorange;
+}
+
+#upArrow {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#upArrow i {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    z-index: 99;
+    position: fixed;
+    color: darkorange;
+    bottom: 30px;
+    right: 30px;
+    font-size: 25px;
+}
